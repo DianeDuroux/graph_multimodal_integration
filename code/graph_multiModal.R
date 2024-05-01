@@ -160,7 +160,7 @@ graph_multiModal=function(path_train, path_test, nsel_nodes=0.3, cor_edges=0.3, 
       }
       
       #Similarity matrix: edd
-=      if(meth=="edd"){
+      if(meth=="edd"){
         d=nd.edd(data_all)$D
       }
       d=as.matrix(d)
